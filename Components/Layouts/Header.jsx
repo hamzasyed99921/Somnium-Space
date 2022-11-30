@@ -12,7 +12,7 @@ export default function Header() {
   return (
     <>
       <nav
-        className="navbar navbar-expand-lg fixed-top "
+        className="navbar navbar-expand-lg  "
         style={{ zIndex: "1" }}
         id="navbar_top"
       >

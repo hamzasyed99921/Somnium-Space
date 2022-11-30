@@ -7,7 +7,7 @@
 .navbar {
   background-color: black;
   padding: 0 0 2px 10px;
-  .container-fluid{
+  .container-fluid {
     padding: 0 0 2px 10px;
   }
   ul {
@@ -106,41 +106,387 @@
 // Navbar section End
 
 // Hero Section Start
-.hero_bg{
-  .container-fluid{
-    .hero_video{
+.hero_bg {
+  .container-fluid {
+    .hero_video {
       min-height: 1080px;
-        left: 50%;
-        -webkit-transform: translate(-50%);
-        transform: translate(-50%);
-        position: absolute;
-        top: 0;
-        object-fit: fill;
+      left: 50%;
+      -webkit-transform: translate(-50%);
+      transform: translate(-50%);
+      position: absolute;
+      top: 0;
+      object-fit: fill;
     }
-    .hero_card{
-    text-align: end;
-    margin-right: 37px;
-    position: absolute;
-    right: 0;
-    top: 140px;
-      .img{
+    .hero_card {
+      text-align: end;
+      margin-right: 37px;
+      position: absolute;
+      right: 0;
+      top: 140px;
+      .img {
         display: flex;
-      flex-direction: column;
-      align-items: flex-end;
-        img{
+        flex-direction: column;
+        align-items: flex-end;
+        img {
           width: 20%;
         }
       }
-    span{
-      cursor: pointer;
-      color: #fff;
-      text-align: center;
-      font-size: 22px;
-      font-weight: 600;
-      text-shadow: -3px 3px 12px rgb(0 0 0 / 77%);
-      // margin-right: 35px;
+      span {
+        cursor: pointer;
+        color: #fff;
+        text-align: center;
+        font-size: 22px;
+        font-weight: 600;
+        text-shadow: -3px 3px 12px rgb(0 0 0 / 77%);
+        // margin-right: 35px;
+      }
     }
+    .hero_txt {
+      position: absolute;
+      bottom: -2rem;
+      right: 30rem;
+      .down_txt {
+        position: absolute;
+        color: #fff;
+        bottom: 2px;
+        font-weight: 600;
+        font-size: 12px;
+      }
+    }
+    .hero_txt2 {
+      position: absolute;
+      bottom: -11rem;
+      right: 25rem;
+
+      h4 {
+        text-shadow: 0 0 4px #0fffff;
+        color: #fff;
+        font-size: 27px;
+        font-weight: 400;
+        width: 90%;
+        padding-top: 10px;
+        padding-left: 5px;
+        height: 50px;
+        margin-left: 5px;
+        border: none;
+        border-bottom: 4px solid;
+        border-image: linear-gradient(90deg, #13c477, transparent) 1 0;
+      }
+      .hero_txt2_img {
+        img {
+          width: 25%;
+        }
+        .img1 {
+          position: absolute;
+          right: 23rem;
+          top: 90px;
+          width: 19%;
+        }
+        .img2 {
+          position: absolute;
+          right: 15rem;
+          width: 18%;
+          top: 90px;
+        }
+        .img3 {
+          position: absolute;
+          right: 120px;
+          top: 88px;
+          width: 18%;
+        }
+      }
+    }
+    .hero_bottem {
+      position: absolute;
+      align-self: center;
+      display: flex;
+      min-height: 138px;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      z-index: 1001;
+      box-shadow: 0 9px 10px rgb(0 0 0 / 45%);
+      background-image: linear-gradient(90deg, #555 0, #888 50%, #555);
+      bottom: -35rem;
     }
   }
 }
 // Hero Section End
+
+// Blokchain Section start
+.blockchain_bg {
+  background-image: url("../Media/images/blockchain.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 67rem;
+  height: 160vh;
+  position: relative;
+  .container {
+    .block_top {
+      // position: absolute;
+      img {
+        width: 100%;
+        height: 50vh;
+      }
+    }
+    .block_txt {
+      position: absolute;
+      top: 60px;
+      right: 164px;
+      text-align: center;
+      h4 {
+        text-shadow: 0 2px 10px rgb(145 219 255 / 75%);
+        color: #fff;
+        font-size: 20px;
+        font-weight: 400;
+      }
+      h3 {
+        text-shadow: 0 2px 10px rgb(145 219 255 / 75%);
+        color: #fff;
+        font-size: 40px;
+        font-weight: 700;
+        text-transform: uppercase;
+        line-height: 10px;
+      }
+    }
+  }
+}
+
+// Blokchain Section End
+
+// Token Section Start
+.bg_img {
+  background-image: url("../Media/images/bg1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #555;
+  margin-top: -20rem;
+  height: 150vh;
+  .container {
+    .images {
+      img {
+        margin-top: 20rem;
+        width: 100%;
+      }
+    }
+    .shadow {
+      position: absolute;
+      left: 0;
+      top: 117rem;
+      img {
+        width: 71%;
+        opacity: 0.7;
+      }
+    }
+    .shadow_txt {
+      position: absolute;
+      margin-left: 13%;
+      margin-right: 9%;
+      top: 20rem;
+      p {
+        color: #fff;
+        font-size: 18px;
+        font-weight: 600;
+        font-style: italic;
+        line-height: 20px;
+      }
+      ul {
+        list-style: none;
+        margin-left: 4%;
+        margin-top: 9%;
+        li {
+          font-size: 22px;
+          line-height: 20px;
+          margin: 5.1% 0;
+          color: #fff;
+          font-size: 18px;
+          font-weight: 700;
+          &::before {
+            content: url("../Media/images/list.svg");
+            position: absolute;
+            left: 0;
+          }
+        }
+      }
+    }
+  }
+}
+// Token Section End
+.token_bottem {
+  position: absolute;
+  z-index: 1;
+  margin-top: -2vh;
+  height: 120px;
+  overflow: hidden;
+  max-height: 120px;
+  min-height: 75px;
+  width: 100%;
+  border: 2px solid #91dbff;
+  background-image: linear-gradient(
+    90deg,
+    rgba(145, 219, 255, 0) 0,
+    rgba(145, 219, 255, 0.5) 50%,
+    rgba(145, 219, 255, 0)
+  );
+
+  h1 {
+    text-shadow: 0 0 8px rgb(145 219 255 / 75%);
+    color: #fff;
+    font-size: 1.9rem;
+    font-weight: 600;
+    margin: 0;
+  }
+}
+// Reality Section Start
+.reality_bg {
+  background-image: url("../Media/images/reality_bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 175vh;
+  .container-fluid {
+    padding: 100px 30px;
+    .reality_txt {
+      h5 {
+        font-size: 1.5rem;
+        font-weight: 500;
+        text-shadow: 0 2px 10px rgb(145 219 255 / 75%);
+        color: #fff !important;
+        margin: 0 !important;
+      }
+      h2 {
+        font-size: 2.7rem;
+        font-weight: 700;
+        text-shadow: 0 2px 10px rgb(145 219 255 / 75%);
+        color: #fff !important;
+        margin: 0 !important;
+      }
+      p {
+        font-size: 1.6rem;
+        font-weight: 500;
+        text-shadow: 0 2px 10px rgb(145 219 255 / 75%);
+        color: #fff !important;
+        margin: 0 !important;
+      }
+    }
+    .reality_grid {
+      p {
+        font-size: 1.25rem;
+        font-weight: 400;
+        text-shadow: 0 2px 10px rgb(145 219 255 / 75%);
+        color: #fff !important;
+        margin: 0 !important;
+      }
+    }
+    .reality_flex {
+      margin-top: -100px;
+      p {
+        font-size: 1rem;
+        font-weight: 500;
+        text-shadow: 0 2px 10px rgb(145 219 255 / 75%);
+        color: #fff !important;
+        margin: 0 !important;
+      }
+    }
+    .botm_txt {
+      h4 {
+        padding: 0 70px;
+        font-size: 1.3rem;
+        font-weight: 500;
+        text-shadow: 0 2px 10px rgb(145 219 255 / 75%);
+        color: #fff !important;
+        margin: 0 !important;
+      }
+    }
+  }
+}
+// Reality Section End
+
+// Mechanics Section Start
+.mechanic_bg {
+  background-image: url("../Media/images/reality_bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 162vh;
+  .container {
+    padding: 40px 0;
+    .mechanic_txt {
+      h5 {
+        font-size: 1.5rem;
+        font-weight: 500;
+        text-shadow: 0 2px 10px rgb(145 219 255 / 75%);
+        color: #fff !important;
+        margin: 0 !important;
+      }
+      h2 {
+        font-size: 2.7rem;
+        font-weight: 700;
+        text-shadow: 0 2px 10px rgb(145 219 255 / 75%);
+        color: #fff !important;
+        margin: 0 !important;
+      }
+    }
+    .mechanic_grid {
+      h3 {
+        color: #b9e7ff;
+        font-size: 1.8rem;
+        font-weight: 700;
+        margin: 0;
+      }
+      p {
+        color: #fff;
+        font-size: 1rem;
+        font-weight: 500;
+        margin: -3px 0 0;
+      }
+    }
+  }
+}
+// Mechanics Section End
+
+// Partner section start
+.partner_bg {
+  background-image: url("../Media/images/reality_bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 110%;
+  margin-top: -24px;
+  .container {
+    padding: 40px 0;
+    h5 {
+      font-size: 1.5rem;
+      font-weight: 500;
+      text-shadow: 0 2px 10px rgb(145 219 255 / 75%);
+      color: #fff !important;
+      margin: 0 !important;
+    }
+    h2 {
+      font-size: 2.7rem;
+      font-weight: 700;
+      text-shadow: 0 2px 10px rgb(145 219 255 / 75%);
+      color: #fff !important;
+      margin: 0 !important;
+    }
+    .partner_txt {
+      h3 {
+        color: #b9e7ff;
+        font-size: 1.95rem;
+        font-weight: 700;
+        margin: 0;
+      }
+      p {
+        color: #fff;
+        font-size: 1.1rem;
+        font-weight: 500;
+        line-height: 28px;
+        margin: 0;
+      }
+    }
+  }
+}
+// Partner section End
