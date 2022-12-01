@@ -563,7 +563,26 @@
     border-radius: 5px;
     background-color: #ff7285;
   }
- 
+  .btn1{
+    text-shadow: 0 0 3px rgb(0 0 0 / 70%);
+  font-size: 15px;
+  border-radius: 15px!important;
+  border: none!important;
+  padding: 4px 40px;
+  color: #fff!important;
+  box-shadow: 0 1px 3px rgb(0 0 0 / 70%);
+  background-image: linear-gradient(180deg,#505050,#bcbcbc)!important;
+  }
+  .btn2{
+    text-shadow: 0 0 3px rgb(0 0 0 / 70%);
+  font-size: 15px;
+  border-radius: 15px!important;
+  border: none!important;
+  padding: 4px 40px;
+  color: #fff!important;
+  box-shadow: 0 1px 3px rgb(0 0 0 / 70%);
+  background-image: linear-gradient(180deg,#033047,#91dbff)!important;
+  }
   }
 }
 // Events Section End
@@ -609,6 +628,13 @@
     .bottom_video{
       padding: 80px 40px;
     }
+    .icon{
+      border: 3px solid #fff;
+  border-radius: 50px;
+  padding: 5px;
+  margin: 0 5px;
+    }
+   
   }
   .footer_bottem{
     position: absolute;

@@ -17,6 +17,7 @@ export default function Community() {
             <h2>SOMNIUM COMMUNITY</h2>
             <p>Share your thoughts with Us and the World</p>
           </div>
+          <div className="py-2 text-center"><FaDiscord className="icon" size={50} color="#fff"/></div>
           <div className="community_video">
             <iframe
               src="https://e.widgetbot.io/channels/494994753146847233/496817347211034630"
@@ -27,6 +28,7 @@ export default function Community() {
           </div>
           <div className="row bottom_video">
             <div className="col-md-6 col-12">
+            <div className="py-2 text-center"><FaTwitter className="icon" size={50} color="#fff"/></div>
               <iframe
                 id="twitter-widget-1"
                 scrolling="no"
@@ -48,6 +50,7 @@ export default function Community() {
               ></iframe>
             </div>
             <div className="col-md-6 col-12">
+            <div className="py-2 text-center"><FaFacebookF className="icon" size={50} color="#fff"/></div>
               <iframe
                 src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FSomniumSpace&amp;tabs=timeline&amp;width=500&amp;height=600&amp;small_header=false&amp;adapt_container_width=true&amp;hide_cover=false&amp;show_facepile=true&amp;appId"
                 width="500"
