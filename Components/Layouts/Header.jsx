@@ -18,7 +18,7 @@ export default function Header() {
       >
         <div className="container-fluid">
           <div className="d-flex flex-column">
-            <div className="d-flex align-items-center">
+            <div className="d-flex align-items-center flex-wrap">
               <Link className="navbar-brand" href="/">
                 <img
                   src="assets/images/nav-logo.png"
@@ -38,7 +38,7 @@ export default function Header() {
               </div>
             </div>
             <div
-              className="d-flex justify-content-center"
+              className="header_icon d-flex justify-content-center"
               style={{ width: "73%" }}
             >
               <h3 className="login me-2">Login</h3>
@@ -64,7 +64,7 @@ export default function Header() {
           >
             <span className="navbar-toggler-icon" />
           </button>
-          <div className="collapse navbar-collapse" id="navbarSupportedContent">
+          <div className="collapse navbar-collapse" >
             <div className="nav_right d-flex flex-column w-100">
               <div className="">
                 <p className="para1">Download VR Client</p>
