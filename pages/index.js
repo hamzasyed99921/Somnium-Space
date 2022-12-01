@@ -13,7 +13,6 @@ import styles from '../styles/Home.module.css'
 export default function Home() {
   return (
     <div className={styles.container}>
-      <Header/>
       <Hero/>
       <Blockchain/>
       <Token/>
@@ -22,7 +21,6 @@ export default function Home() {
       <Partner/>
       <Events/>
       <Community/>
-      <Footer/>
     </div>
   )
 }
