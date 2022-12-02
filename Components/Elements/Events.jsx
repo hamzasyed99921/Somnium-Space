@@ -3,7 +3,7 @@ export default function Events() {
     <>
       <div className="events_bg">
         <div className="container">
-          <div className=" text-white text-center mt-5 mb-5">
+          <div className=" text-white text-center mt-5 mb-5" data-aos="fade-up">
             <h5>STAY SHARP WITH UPCOMING EVENTS </h5>
             <h2>SOMNIUM EVENTS CALENDAR</h2>
             <p>

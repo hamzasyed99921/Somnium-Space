@@ -12,7 +12,7 @@ export default function Footer() {
     <>
       <footer className="footer">
         <div className="container-fluid">
-          <div className="d-flex justify-content-around">
+          <div className="d-flex justify-content-around flex-wrap">
             <div className="d-flex flex-column">
               <div>
                 <img
@@ -49,12 +49,12 @@ export default function Footer() {
               </div>
             </div>
             <div className="footer_icons " style={{width: '20%'}}>
-              <div className="d-flex justify-content-around">
+              <div className="d-flex justify-content-around flex-wrap">
                 <FaTelegramPlane className="icon" size={50} color="#fff" />
                 <FaInstagram className="icon" size={50} color="#fff" />
                 <FaYoutube className="icon" size={50} color="#fff" />
               </div>
-              <div className="d-flex justify-content-around mt-3">
+              <div className="d-flex justify-content-around flex-wrap mt-3">
                 <FaTwitter className="icon" size={50} color="#fff" />
                 <FaDiscord className="icon" size={50} color="#fff" />
                 <FaFacebookF className="icon" size={50} color="#fff" />

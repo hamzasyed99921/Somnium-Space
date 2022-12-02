@@ -3,7 +3,7 @@ export default function Partner() {
     <>
       <div className="partner_bg">
         <div className="container">
-          <div className=" text-white text-center mt-5 mb-5">
+          <div className=" text-white text-center mt-5 mb-5" data-aos="fade-up">
             <h5>SOMNIUM SPACE </h5>
             <h2>PARTNERS</h2>
           </div>

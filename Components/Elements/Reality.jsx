@@ -3,7 +3,7 @@ export default function Reality() {
     <>
       <div className="reality_bg">
         <div className="container-fluid">
-          <div className="reality_txt text-white text-center mt-4">
+          <div className="reality_txt text-white text-center mt-4" data-aos="fade-up">
             <h5>SOMNIUM SPACE IS A</h5>
             <h2>VIRTUAL REALITY WORLD</h2>
             <p>Open, Social & Persistent</p>

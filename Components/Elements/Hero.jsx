@@ -19,19 +19,19 @@ export default function Hero() {
             </video>
             <div className="hero_card">
               <div className="img">
-                <img src="assets/images/hero1.png" alt="" />
+                <img src="assets/images/hero1.png" style={{cursor: 'pointer'}} alt="" />
                 <span className="me-5">UnitySDK</span>
               </div>
               <div className="img mt-4">
-                <img src="assets/images/hero2.png" alt="" />
+                <img src="assets/images/hero2.png" style={{cursor: 'pointer'}} alt="" />
                 <span className="me-3">Virtual Reality</span>
               </div>
               <div className="img mt-4">
-                <img src="assets/images/hero3.png" alt="" />
+                <img src="assets/images/hero3.png" style={{cursor: 'pointer'}} alt="" />
                 <span className="me-5">Builder</span>
               </div>
               <div className="img mt-4">
-                <img src="assets/images/hero4.png" alt="" />
+                <img src="assets/images/hero4.png" style={{cursor: 'pointer'}} alt="" />
                 <span className="me-4">Marketplace</span>
               </div>
             </div>
@@ -42,8 +42,8 @@ export default function Hero() {
                     </div>
                     <div className="flex_txt d-flex flex-column align-items-center justify-content-center">
                         <img src="assets/images/new2.png" alt="" />
-                        <img src="assets/images/new3.png" className="position-relative mt-2" alt="" />
-                        <p className="down_txt">Download</p>
+                        <img src="assets/images/new3.png" style={{cursor: 'pointer'}} className="position-relative mt-2" alt="" />
+                        <p className="down_txt" style={{cursor: 'pointer'}}>Download</p>
                     </div>
                 </div>
             </div>
@@ -53,12 +53,12 @@ export default function Hero() {
                         <h4>Access CUBEs</h4>
                     </div>
                     <div className="hero_txt2_img mt-3">
-                        <img src="assets/images/new5.png" className="position-relative me-2" alt="" />
-                        <img src="assets/images/btntxt.png" className="img1" alt="" />
-                        <img src="assets/images/new6.png" className="position-relative me-2" alt="" />
-                        <img src="assets/images/btntxt1.png" className="img2" alt="" />
-                        <img src="assets/images/new5.png" className="position-relative" alt="" />
-                        <img src="assets/images/btntxt3.png" className="img3" alt="" />
+                        <img src="assets/images/new5.png" style={{cursor: 'pointer'}} className="position-relative me-2" alt="" />
+                        <img src="assets/images/btntxt.png" style={{cursor: 'pointer'}} className="img1" alt="" />
+                        <img src="assets/images/new6.png" style={{cursor: 'pointer'}} className="position-relative me-2" alt="" />
+                        <img src="assets/images/btntxt1.png" style={{cursor: 'pointer'}} className="img2" alt="" />
+                        <img src="assets/images/new5.png" style={{cursor: 'pointer'}} className="position-relative" alt="" />
+                        <img src="assets/images/btntxt3.png" style={{cursor: 'pointer'}} className="img3" alt="" />
                     </div>
                 </div>
           </div>

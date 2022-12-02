@@ -3,7 +3,7 @@ export default function Mechanics() {
     <>
       <div className="mechanic_bg">
         <div className="container">
-          <div className="mechanic_txt text-white text-center mt-4">
+          <div className="mechanic_txt text-white text-center mt-4" data-aos="fade-up">
             <h5>SOMNIUM SPACE </h5>
             <h2>INGAME MECHANICS</h2>
           </div>
@@ -58,7 +58,7 @@ export default function Mechanics() {
           <div className=" row">
             <div className="col-md-5 col-12 d-flex justify-content-end text-end   mt-5 ">
               <div className="text-white">
-                <h3>Live Forever</h3>
+                <h3 style={{color: '#D00808'}}>Live Forever</h3>
                 <p>Automatic recording mode of yourself on your own property for
                   future AI analysis to bring your avatar to life.</p>
               </div>

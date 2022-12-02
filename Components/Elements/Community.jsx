@@ -12,7 +12,7 @@ export default function Community() {
     <>
       <div className="community_bg position-relative">
         <div className="container">
-          <div className=" text-white text-center mt-5 mb-5">
+          <div className=" text-white text-center mt-5 mb-5" data-aos="fade-up">
             <h5>KEEP IN TOUCH WITH </h5>
             <h2>SOMNIUM COMMUNITY</h2>
             <p>Share your thoughts with Us and the World</p>
@@ -23,6 +23,7 @@ export default function Community() {
               src="https://e.widgetbot.io/channels/494994753146847233/496817347211034630"
               width="1200"
               height="400"
+              
               style={{border: '2px solid gray'}}
             ></iframe>
           </div>
